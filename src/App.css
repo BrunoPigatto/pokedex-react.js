@@ -45,3 +45,16 @@ nav {
   height: 44px;
   padding: 10px 12px;
 }
+
+.pokedex-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.pokedex-grid {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(3, 1fr);
+}
